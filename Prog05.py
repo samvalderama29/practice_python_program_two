@@ -6,4 +6,3 @@ num2 = int(input("Second number: "))
 remaindernum = num1 % num2
 
 print(remaindernum)
-
