@@ -2,10 +2,10 @@
 
 first_num = int(input("Enter number 1: "))
 
-all_minusnum = first_num
+minus_allnum = first_num
 
 for i in range(2,11):
     num = int(input(f"Enter number {i}: "))
-    all_minusnum -= num
+    minus_allnum -= num
 
-print(f"Result: {all_minusnum}")
+print(f"Result: {minus_allnum}")
